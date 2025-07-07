@@ -1,3 +1,5 @@
+// @ts-check
+
 //console.log('Playwright');
 
 // const ghhh = (a, b) => {
