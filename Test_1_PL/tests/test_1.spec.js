@@ -43,8 +43,8 @@ test('Проверка аттрибута Href Елементов Навигац
     'href',
     '/',
   );
-  '/',
-    await expect(page.getByRole('link', { name: 'Docs' })).toHaveAttribute('href', '/docs/intro');
+
+  await expect(page.getByRole('link', { name: 'Docs' })).toHaveAttribute('href', '/docs/intro');
   await expect(page.getByRole('link', { name: 'API' })).toHaveAttribute(
     'href',
     '/docs/api/class-playwright',
